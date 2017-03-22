@@ -17,9 +17,11 @@
 
 	<script>
   	//Escribe aquí tu código Javascript
-    var
-    document.getElementsById("num_enlace").innerHTML;
-
+		function numeroEnlacesTotal(){
+			var enlacesVistos= document.getElementsByTagName('a');
+			document.getElementById("num_enlaces").innerHTML = enlacesVistos.length;
+		}
+	numeroEnlacesTotal();
 	</script>
 </body>
 </html>
